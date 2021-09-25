@@ -1,14 +1,14 @@
 /*
  * File: pyramid.js
  * -----------------------
- * The program uses nested loops to draw a pyramid on the console.
+ * The program uses nested loops to draw a pyramid.
  */
 
 "use strict";
 
 /*
- * Draws a pyramid on the console.  The parameter is the number of levels
- * in the pyramid.
+ * Draws a pyramid.  The parameter is the number of levels in the pyramid.
+ * You must make sure that the input is a positive, whole number no bigger than 15
  */
 
 function drawPyramid(height) {
@@ -20,8 +20,6 @@ function drawPyramid(height) {
     console.log(height);
 
     //TODO : Complete function
-
-
 
 }
 
